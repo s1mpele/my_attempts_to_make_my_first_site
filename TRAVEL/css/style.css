@@ -451,7 +451,7 @@ textarea {
   
   /* Intro style start */
   .intro {
-      height: 100vh;
+      min-height: 100vh;
       background: url(../img/Hero.png) no-repeat center;
       background-size: cover ;
       padding-top: 180px;
@@ -473,6 +473,43 @@ textarea {
       line-height: 24px;
       margin-bottom: 59px ;
   }
-  
+  .search_info {
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .search_input {
+      width: 297px;
+      background: url(../img/Oval.png) no-repeat left 3px;
+      background-size: 20px;
+      background-color: transparent;
+      border: 0;
+      border-bottom:  2px solid #BFC0C5;
+      padding-left: 43px;
+      padding-bottom: 31px;
+      font-size: 18px;
+      line-height: 24px;
+      color: white;
+      margin-right: 60px ;
+    }
+  .search_input::placeholder {
+        font-size: 18px;
+      line-height: 24px;
+      color: white;
+  }
+  .search_from_sumbit {
+      background-color:#1B7DFF;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 29px;
+      color: white;
+      font-family: 'Lato';
+      font-style: normal;
+      width: 171px;
+      height: 58px;
+      border: 0;
+  }
+  .search_from_sumbit:hover, .search_from_sumbit:active, .search_from_sumbit:focus {
+      background-color: #1059ba;
+  }
   
   /* Intro style end */
